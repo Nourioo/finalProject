@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>mean Joke Generator</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1> Mean Joke generator</h1>
+        </header>
+        <main>
+            <div class="form-container">
+                <form id="joke-generator-app">
+                    <input type="text" placeholder="Enter the topic of the joke" autofocus required autocomplete="off" class="instructions" id="user-instructions
+                    ">
+                    <input type="submit" class="submit-button">
+                </form>
+                <div class="hint"> i.e: Peach, face</div>
+                <div class="joke hidden" id="joke"></div>
+            </div>
+        </main>
+        <footer>
+            This AI project was coded by <a href="#" target="_blank">Zahra Nouri</a> 
+            and is open-sourced on <a href="https://github.com/Nourioo/fuc" target="_blank"> GitHub</a>
+             and is hosted on <a href="https://poemjojoi.netlify.app/" target="_blank">Netlify</a>
+        </footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
