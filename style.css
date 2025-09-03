@@ -47,56 +47,6 @@ form {
     line-height: 20px;
     color: brown;
     margin-right: 10px;
-    flex: 1;             /* ✅ makes input stre*
-body {
-    background-color: beige;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-a {
-    color: chocolate;
-}
-
-.container {
-    margin: 120px auto;
-    max-width: 600px;
-}
-
-header {
-    margin-bottom: 30px;
-}
-
-h1 {
-    text-align: center;
-    font-weight: 800;
-    font-size: 36px;
-    line-height: 1.5;
-    color: brown;
-}
-
-.form-container {
-    padding: 30px;
-    background: rgb(236, 224, 170);
-    box-shadow: 0 20px 30px rgba(159, 141, 111, 0.8);
-    border-radius: 10px;
-    margin-bottom: 30px;
-}
-
-form {
-    display: flex;       /* ✅ inputs on one line */
-    gap: 10px;           /* ✅ small space between input and button */
-    margin-bottom: 15px;
-}
-
-.instructions {
-    padding: 16px;
-    border: 1px solid rgba(132, 102, 82, 0.727);
-    width: 80%;
-    font-size: 16px;
-    border-radius: 10px;
-    line-height: 20px;
-    color: brown;
-    margin-right: 10px;
     flex: 1;             /* ✅ makes input stretch */
 }
 
